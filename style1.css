@@ -1,0 +1,266 @@
+html{
+    overflow-x: auto;
+    overflow-y: auto;
+    display: block;
+  }
+  body{
+    display: block;
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+a, body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    text-decoration: none;
+  }
+html, body{
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    /* background-color:#333; */
+    border-top-color: initial;
+    border-top-style: initial;
+    border-top-width: 0px;
+    border-right-color: initial;
+    border-right-style: initial;
+    border-right-width: 0px;
+    border-bottom-color: initial;
+    border-bottom-style: initial;
+    border-bottom-width: 0px;
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: 0px;
+}
+div{
+    display: block;
+}
+footer span{
+    margin-right: 24px;
+    zoom: 1;
+}
+#menubox{
+    background: none;
+    height: 43px;
+}
+.menuContainer, a{
+    text-decoration: none;
+    color: #fff;
+}
+#menuSection{
+    background: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 13px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+#menuS li{
+    zoom: 1;
+    display: inline;
+}
+#menuS li a{
+    vertical-align: middle;
+    line-height: 39px !important;
+    display: inline-block;
+}
+#menuS{
+    position: absolute;
+    top: 0;
+    height: 43px;
+    line-height: 39px;
+    bottom: 0;
+    left: 0;
+}
+#idContainer #id_h{
+    z-index: 11;
+}
+#id_h{
+    background-color: transparent !important;
+    position: relative !important;
+    float: right;
+    height: 43px !important;
+    width: auto;
+}
+#id_h #id_l{
+    color: #fff !important;
+    background-color: transparent !important;
+}
+#id_l.id_button{
+    height: 42px;
+    margin-top: 2px;
+    display: inline-block;
+}
+#id_l{
+    padding: 0 12px;
+}
+.id_button{
+    line-height: 39px !important;
+    vertical-align: top;
+}
+#id_h #id_s{
+    color: #fff !important;
+    background-color: transparent !important;
+}
+#id_s{
+    margin-right: 2px;
+}
+#id_h #id_a{
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
+    background-color: #ececec;
+    background-position: -11px -149px;
+}
+.id_avatar{
+    vertical-align: middle;
+    margin: 1px 3px 2px 8px;
+    display: inline-block;
+}
+.sw_spd{
+    background: transparent url(https://www.bing.com/sa/simg/hpc26.png) no-repeat;
+    overflow: hidden;
+}
+#idContainer #id_h .idp_ham{
+    margin-right: 0;
+}
+a, #id_h a{
+    text-decoration: none;
+}
+.idp_ham{
+    display: inline-block;
+    background-size: 241px 223px;
+    background-position: -170px -149px;
+    height: 16px;
+    width: 20px;
+    margin: 0 42px 14px 10px;
+    vertical-align: bottom;
+    border: none;
+    background: transparent url(https://www.bing.com/sa/simg/hpc26.png) no-repeat;
+    overflow: hidden;
+}
+#idContainer #id_hbfo{
+    right: 0;
+}
+div#sbox.sw_sform {
+    left: 150px;
+}
+.hp_sw_logo{
+    float: left;
+    text-indent: -20em;
+}
+sw_sform{
+    position: absolute;
+    top: 20%;
+    margin: 0;
+    z-index: 9;
+}
+.hpcLogoWhite {
+    background-position: 0 0;
+    margin: -7px 21px 0 0;
+    width: 132px;
+    height: 52px;
+}
+.hpcLogoWhite{
+    background: transparent url(https://www.bing.com/sa/simg/hpc26.png) no-repeat;
+    overflow: hidden;
+}
+.search_controls{
+    display: inline-block;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+body .b_searchboxForm{
+    background-color: #fff;
+    border: 1px #ccc solid;
+    padding: 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,.3);
+}
+.b_searchboxForm{
+    position: relative;
+    display: inline-block;
+    zoom: 1;
+    font: 18px/normal 'Segoe UI',Arial,Helvetica,Sans-Serif;
+}
+body .b_searchbox{
+    background-color: #fff;
+    margin: 6px 1px 0 10px;
+    width: 486px;
+    border-right: 0;
+    padding-right: 4px;
+}
+.b_searchbox{
+    border: 0;
+    padding: 0 10px 0 0;
+    max-height: 30px;
+    outline: none;
+    -webkit-appearance: none;
+    border-color: #ccc;
+    box-sizing: content-box;
+    position: relative;
+    height: 40px;
+    font-size: 16px;
+}
+input{
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-writing-mode: horizontal-tb !important;
+}
+body .b_searchboxForm .b_searchboxSubmit{
+    height: 45px;
+    width: 45px;
+    border: 8px solid #fff;
+    background: #fff url(https://www.bing.com/sa/simg/hpc26.png) no-repeat;
+    background-position: -169px -63px;
+    overflow: hidden;
+    vertical-align: top;
+}
+.b_searchboxSubmit{
+    text-indent: -99em;
+    position: static;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+input {
+    font: inherit;
+    font-size: 100%;
+    -webkit-rtl-ordering: logical;
+
+}
+input[type="submit" i]{
+    padding: 1px 6px;
+    align-items: flex-start;
+    text-align: center;
+    color: buttontext;
+    box-sizing: border-box;
+    -webkit-appearance: push-button;
+    user-select: none;
+    white-space: pre;
+}
